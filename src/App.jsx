@@ -62,6 +62,17 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* About */}
+      <div id="about" className="py-20 bg-green-50">
+        <div className="container mx-auto text-center px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-8">Tentang Smartani</h2>
+          <p className="text-lg text-gray-700 max-w-4xl mx-auto leading-relaxed">
+            Smartani adalah platform agritech berbasis IoT yang membantu petani dan pengelola greenhouse dalam meningkatkan produktivitas hasil panen secara optimal. Dengan sistem monitoring real-time, kontrol otomatis, dan manajemen sumber daya cerdas, Smartani menjawab kebutuhan pertanian modern yang efisien, ramah lingkungan, dan berbasis teknologi.
+          </p>
+        </div>
+      </div>
+
+
       {/* Features */}
       <div id="features" className="py-20 bg-green-50">
         <div className="text-center mb-16 px-4">
@@ -112,6 +123,24 @@ export default function HomePage() {
               <Droplet className="text-green-600" size={48} />
               <h4 className="font-semibold text-lg mt-4">Hemat Air & Nutrisi</h4>
               <p className="text-gray-600 text-sm mt-2">Sistem otomatisasi irigasi presisi.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Contact */}
+      <div id="contact" className="py-20 bg-white">
+        <div className="container mx-auto text-center px-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-8">Kontak Kami</h2>
+          <p className="text-lg text-gray-700 mb-8">Hubungi kami untuk demo & konsultasi:</p>
+          <div className="flex flex-col md:flex-row justify-center gap-8">
+            <div className="card bg-green-100 p-6 shadow-md w-full md:w-80">
+              <p className="font-semibold text-lg mb-2">Email:</p>
+              <p className="text-green-700 break-words text-base">info@smartani.id</p>
+            </div>
+            <div className="card bg-green-100 p-6 shadow-md w-full md:w-80">
+              <p className="font-semibold text-lg mb-2">Alamat:</p>
+              <p className="text-green-700 text-base">Jl. Teknologi No.1, Jakarta</p>
             </div>
           </div>
         </div>
