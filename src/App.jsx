@@ -309,7 +309,7 @@ export default function HomePage() {
       </section>
 
       {/* Premis After Features */}
-      <section className="bg-transparent py-10 flex justify-center">
+      <section className="bg-green-50 py-10 flex justify-center">
         <div className="bg-black text-white rounded-2xl px-6 py-8 w-full max-w-7xl mx-auto mt-16 text-center shadow-lg">
           <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">Cara Cepat Mewujudkan Pertanian Cerdas</h3>
           <p className="text-sm sm:text-base md:text-lg mb-6">Dengan Smartani, Anda tak hanya mengikuti perkembangan, Anda memimpinnya. Bergabunglah hari ini.</p>
