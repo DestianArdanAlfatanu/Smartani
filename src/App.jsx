@@ -82,7 +82,7 @@ export default function HomePage() {
 
           <span className="badge badge-success text-white px-4 py-2 rounded-2xl mb-2">Home</span>
 
-          <img src="/model.jpeg" alt="Petani Smartani" className="w-48 sm:w-64 md:w-80 rounded-3xl shadow-2xl" />
+          <img src="/model.jpeg" alt="Petani Smartani" className="w-80 sm:w-64 md:w-80 rounded-3xl shadow-2xl" />
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-800 leading-snug">
             Bertani Menjadi <br className="hidden sm:block" /> Sepenuh Hati
@@ -158,7 +158,7 @@ export default function HomePage() {
 
       {/* Features Section */}
       <section id="features" className="py-24 bg-white relative overflow-hidden">
-        <div className="w-full max-w-[1800px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 text-center">
+        <div className="w-full max-w-[1800px] mx-auto px-4 -mt-10 sm:px-6 md:px-8 lg:px-12 xl:px-20 text-center">
           
           {/* Badge Features */}
           <div className="mb-4">
@@ -310,7 +310,7 @@ export default function HomePage() {
 
       {/* Premis After Features */}
       <section className="bg-green-50 py-10 flex justify-center">
-        <div className="bg-black text-white rounded-2xl px-6 py-8 w-full max-w-7xl mx-auto mt-16 text-center shadow-lg">
+        <div className="bg-black text-white rounded-2xl px-6 py-8 w-full max-w-7xl mx-auto mt-0 text-center shadow-lg">
           <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-3">Cara Cepat Mewujudkan Pertanian Cerdas</h3>
           <p className="text-sm sm:text-base md:text-lg mb-6">Dengan Smartani, Anda tak hanya mengikuti perkembangan, Anda memimpinnya. Bergabunglah hari ini.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-3">
@@ -328,7 +328,7 @@ export default function HomePage() {
         {/* Laptop Only */}
         <div className='hidden lg:block'> 
           {/* Judul Tengah */}
-          <div className="text-center max-w-5xl mx-auto space-y-4">
+          <div className="text-center max-w-5xl mb-10 mx-auto space-y-4">
             <span className="badge badge-success px-4 py-4 text-white rounded-2xl">About Us</span>
             <h2 className="text-3xl md:text-4xl font-bold text-green-800 leading-snug">
               Empowering the Future of Eco-Friendly Greenhouse
@@ -339,10 +339,10 @@ export default function HomePage() {
           </div>
 
           {/* Bawah: Grid 2 Kolom */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10">
 
             {/* List Kiri */}
-            <div className="space-y-6 justify-self-start text-left pl-20">
+            <div className="space-y-6 justify-self-start text-left pl-10">
               {/* Item 1 */}
               <div className="flex items-start gap-4">
                 <div className="bg-green-500 p-3 rounded-xl text-white">
@@ -378,7 +378,7 @@ export default function HomePage() {
             </div>
               <div className="absolute bottom-10 left-0 w-[300px] h-[300px] bg-green-200 opacity-40 rounded-full blur-3xl translate-x-1/1 translate-y-1/3 z-0"></div>
             {/* Foto Kanan */}
-            <div className="flex justify-self-end pr-20">
+            <div className="flex justify-self-end pr-10">
               <img src="/model-2.png" alt="Smartani Team" className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl rounded-3xl shadow-2xl" />
             </div>
           </div>
@@ -400,7 +400,7 @@ export default function HomePage() {
 
           {/* Gambar Model */}
           <div className="flex justify-center mb-10">
-            <img src="/model-2.png" alt="Smartani Team" className="max-w-[200px] sm:max-w-[300px] md:max-w-[400px] rounded-3xl shadow-2xl" />
+            <img src="/model-2.png" alt="Smartani Team" className="max-w-[280px] sm:max-w-[300px] md:max-w-[400px] rounded-3xl shadow-2xl" />
           </div>
 
           {/* List Tentang Kami */}
@@ -462,7 +462,7 @@ export default function HomePage() {
                   <path d="m16 10-4 4-4-4" />
                 </svg>
               </div>
-              <ul tabIndex={0} className="dropdown-content menu bg-base-100 w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
+              <ul tabIndex={0} className="dropdown-content menu bg-white w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
                 <li>
                   <p>Mempermudah pemantauan lahan, hemat air, pupuk, dan tenaga, panen lebih optimal dan stabil, mengurangi risiko gagal panen, akses informasi dari mana saja.</p>
                 </li>
@@ -478,7 +478,7 @@ export default function HomePage() {
                   <path d="m16 10-4 4-4-4" />
                 </svg>
               </div>
-              <ul tabIndex={0} className="dropdown-content menu bg-base-100 w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
+              <ul tabIndex={0} className="dropdown-content menu bg-white w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
                 <li>
                   <p>Smartani dapat memantau kelembapan udara, suhu, intensitas cahaya, pH tanah, kecerahan, TDS, hingga CO2.</p>
                 </li>
@@ -494,7 +494,7 @@ export default function HomePage() {
                   <path d="m16 10-4 4-4-4" />
                 </svg>
               </div>
-              <ul tabIndex={0} className="dropdown-content menu bg-base-100 w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
+              <ul tabIndex={0} className="dropdown-content menu bg-white w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
                 <li>
                   <p>Tidak ada. Smartani mendukung berbagai ukuran greenhouse, dari kecil hingga besar. Kami menyesuaikan solusi dan konfigurasi sensor berdasarkan kebutuhan dan luas lahan Anda.</p>
                 </li>
@@ -510,7 +510,7 @@ export default function HomePage() {
                   <path d="m16 10-4 4-4-4" />
                 </svg>
               </div>
-              <ul tabIndex={0} className="dropdown-content menu bg-base-100 w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
+              <ul tabIndex={0} className="dropdown-content menu bg-white w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
                 <li>
                   <p>Kontak langsung ke tim kami melalui WhatsApp atau email: info.smartani@gmail.com. Konsultasi kebutuhan terlebih dahulu (gratis), lalu kami bantu rekomendasikan paket terbaik sesuai kondisi lahan Anda.</p>
                 </li>
@@ -526,7 +526,7 @@ export default function HomePage() {
                   <path d="m16 10-4 4-4-4" />
                 </svg>
               </div>
-              <ul tabIndex={0} className="dropdown-content menu bg-base-100 w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
+              <ul tabIndex={0} className="dropdown-content menu bg-white w-full shadow rounded-box mt-2 p-6 space-y-2 text-gray-700 text-base leading-relaxed">
                 <li>
                   <p>Tim kami siap datang langsung ke lokasi Anda untuk membantu pemasangan dan pelatihan penggunaan.</p>
                 </li>
@@ -574,7 +574,7 @@ export default function HomePage() {
                   <path d="m4 4 8 8 8-8" /><path d="M4 20h16V4H4z" />
                 </svg>
               </div>
-              <h4 className="text-lg font-bold">Email</h4>
+              <h4 className="text-lg text-black font-bold">Email</h4>
               <p className="text-gray-700">info.smartani@gmail.com</p>
             </div>
 
@@ -585,7 +585,7 @@ export default function HomePage() {
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.1 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12.83.35 1.65.68 2.42a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.66-1.14a2 2 0 0 1 2.11-.45c.77.33 1.59.56 2.42.68a2 2 0 0 1 1.72 2z" />
                 </svg>
               </div>
-              <h4 className="text-lg font-bold">Phone</h4>
+              <h4 className="text-lg text-black font-bold">Phone</h4>
               <p className="text-gray-700">0851xxxxx</p>
             </div>
 
@@ -594,7 +594,7 @@ export default function HomePage() {
               <div className="bg-green-500 p-4 rounded-full text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round-icon lucide-users-round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg><circle cx="12" cy="12" r="10" />
               </div>
-              <h4 className="text-lg font-bold">Socials</h4>
+              <h4 className="text-lg text-black font-bold">Socials</h4>
               <div className="flex space-x-4 text-gray-700 text-xl">
               
                 <a href="https://www.instagram.com/smartani.id" target="_blank">
@@ -672,7 +672,7 @@ export default function HomePage() {
               <input
                 type="email"
                 placeholder="Enter your work email"
-                className="input input-bordered text-black input-sm w-48 md:w-64"
+                className="input input-bordered text-white input-sm w-48 md:w-64"
               />
               <button className="btn btn-success bg-green-500 btn-sm font-semibold text-white">Subscribe</button>
             </div>
@@ -730,7 +730,7 @@ export default function HomePage() {
                 <input
                   type="email"
                   placeholder="Enter your work email"
-                  className="input input-bordered text-black input-sm w-48 md:w-64"
+                  className="input input-bordered text-white input-sm w-48 md:w-64"
                 />
                 <button className="btn btn-success bg-green-500 btn-sm font-semibold text-white">Subscribe</button>
               </div>
