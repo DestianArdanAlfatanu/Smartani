@@ -487,7 +487,7 @@ export default function HomePage() {
 
             {/* FAQ 3 */}
             <div className="dropdown dropdown-start w-full">
-              <div tabIndex={0} role="button" className="btn btn-outline w-full rounded-xl h-20 px-8 text-lg justify-between text-left items-center bg-green-500 text-white hover:bg-green-700 hover:text-white">
+              <div tabIndex={0} role="button" className="btn btn-outline w-full rounded-xl h-20 px-8 text-lg justify-between sm:text-left items-center bg-green-500 text-white hover:bg-green-700 hover:text-white">
                 Apakah ada batasan luas greenhouse untuk Smartani?
                 <svg xmlns="http://www.w3.org/2000/svg" className="lucide w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <rect width="18" height="18" x="3" y="3" rx="2" />
