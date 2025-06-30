@@ -21,7 +21,7 @@ export default function HomePage() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-base-100">
+    <div className="min-h-screen bg-white-100">
       {/* Navbar */}
       <div className="navbar bg-black shadow-sm sticky top-0 z-50 h-16 min-h-0">
         <div className="container mx-auto px-12 flex justify-between items-center">
@@ -56,48 +56,84 @@ export default function HomePage() {
         )}
       </div>
 
-      {/* Hero Section */}
-      <section  id="home"  className="min-h-screen flex flex-col-reverse lg:flex-row items-center container mx-auto px-4 -mt-16 relative overflow-hidden">
-      
-        <div className="absolute inset-0 z-0">
-          <div className="absolute left-0 top-0 w-[500px] h-[300px] bg-green-200 opacity-50 rounded-full blur-3xl transform -translate-x-1/3 -translate-y-1/7"></div>
-        </div>
-        
-        <div className="w-full lg:w-1/2 lg:pl-20 text-center lg:text-left space-y-6 z-10 ">
-          <span className="badge badge-success text-white px-4 py-4 rounded-2xl">Home</span>
+      {/* Home Section */}
+      <section id="home" className="min-h-screen flex flex-col lg:flex-row items-center max-w-[1800px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 -mt-16 relative overflow-hidden text-white">
 
-          <h1 className="text-5xl md:text-6xl font-bold text-green-800 leading-snug">
+        {/* Background Blur */}
+        <div className="absolute inset-0 z-0">
+          <div className="absolute left-0 top-0 w-[200px] sm:w-[300px] md:w-[400px] lg:w-[500px] h-[150px] sm:h-[200px] md:h-[250px] lg:h-[300px] bg-green-200 opacity-50 rounded-full blur-3xl transform -translate-x-1/3 -translate-y-1/4"></div>
+        </div>
+
+        {/* Mobile & Tablet Layout */}
+        <div className="flex flex-col w-full items-center text-center space-y-4 sm:space-y-5 md:space-y-6 z-10 lg:hidden">
+
+          <span className="badge badge-success text-white px-4 py-2 rounded-2xl mt-6">Home</span>
+
+          <img src="/model.jpeg" alt="Petani Smartani" className="w-48 sm:w-64 md:w-80 rounded-3xl shadow-2xl" />
+
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-500 leading-snug">
+            Bertani Menjadi <br className="hidden sm:block" /> Sepenuh Hati
+          </h1>
+
+          <p className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700">
+            Bertani Lebih Tenang, Hasil Lebih Maksimal!
+          </p>
+
+          <ul className="mt-4 sm:mt-5 md:mt-6 space-y-3 sm:space-y-4 text-left text-gray-700 font-medium text-base sm:text-lg w-4/5 sm:w-3/5">
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-green-400 w-5 h-5" /> Produktivitas Optimal
+            </li>
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-green-400 w-5 h-5" /> Presisi yang Andal
+            </li>
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-green-400 w-5 h-5" /> Kontrol Penuh di Tangan Anda
+            </li>
+            <li className="flex items-center gap-3">
+              <CheckCircle className="text-green-400 w-5 h-5" /> Keberlanjutan dan Ramah Lingkungan
+            </li>
+          </ul>
+
+          <button className="btn btn-success text-white btn-md sm:btn-lg mt-4 sm:mt-6 rounded-xl">Mulai</button>
+        </div>
+
+        {/* Laptop Layout */}
+        <div className="hidden lg:flex w-full lg:w-1/2 flex-col justify-center text-left space-y-6 z-10">
+          <span className="badge badge-success text-white px-4 py-3 rounded-2xl">Home</span>
+
+          <h1 className="text-5xl xl:text-6xl font-bold text-green-500 leading-snug">
             Bertani Menjadi <br /> Sepenuh Hati
           </h1>
 
           <p className="text-2xl font-semibold text-gray-700">
-            Bertani Lebih Tenang, Hasil Lebih <br /> Maksimal!
+            Bertani Lebih Tenang, Hasil Lebih Maksimal!
           </p>
 
           <ul className="mt-6 space-y-4 text-left text-gray-700 font-medium text-lg">
             <li className="flex items-center gap-3">
-              <CheckCircle className="text-green-500" /> Produktivitas Optimal
+              <CheckCircle className="text-green-400" /> Produktivitas Optimal
             </li>
             <li className="flex items-center gap-3">
-              <CheckCircle className="text-green-500" /> Presisi yang Andal
+              <CheckCircle className="text-green-400" /> Presisi yang Andal
             </li>
             <li className="flex items-center gap-3">
-              <CheckCircle className="text-green-500" /> Kontrol Penuh di Tangan Anda
+              <CheckCircle className="text-green-400" /> Kontrol Penuh di Tangan Anda
             </li>
             <li className="flex items-center gap-3">
-              <CheckCircle className="text-green-500" /> Keberlanjutan dan Ramah Lingkungan
+              <CheckCircle className="text-green-400" /> Keberlanjutan dan Ramah Lingkungan
             </li>
           </ul>
 
-          <button className="btn btn-success text-white btn-lg mt-6 rounded-xl">Mulai</button>
-          
+          <button className="btn btn-success text-white btn-lg mt-6 rounded-xl w-fit">Mulai</button>
         </div>
 
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end lg:pr-20">
-          <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-green-200 opacity-40 rounded-full blur-3xl translate-x-1/3 translate-y-1/1 z-0"></div>
-          <img src="/model.jpeg" alt="Petani Smartani" className="w-80 md:w-96 lg:w-[600px] rounded-3xl shadow-2xl" />
+        <div className="w-full lg:w-1/2 flex justify-center lg:justify-end lg:pr-20 mt-8 lg:mt-0 relative">
+          <div className="absolute bottom-0 right-0 w-[150px] sm:w-[200px] md:w-[250px] lg:w-[300px] h-[150px] sm:h-[200px] md:h-[250px] lg:h-[300px] bg-green-200 opacity-40 rounded-full blur-3xl translate-x-1/3 translate-y-1/2 z-0"></div>
+
+          <img src="/model.jpeg" alt="Petani Smartani" className="w-48 sm:w-64 md:w-80 lg:w-[600px] rounded-3xl shadow-2xl relative z-10" />
         </div>
       </section>
+
 
       {/* Premis Tagline */}
       <div className="w-full text-center -mt-10">
@@ -447,10 +483,7 @@ export default function HomePage() {
             {/* Socials */}
             <div className="flex flex-col items-center space-y-2">
               <div className="bg-green-500 p-4 rounded-full text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-round-icon lucide-users-round"><path d="M18 21a8 8 0 0 0-16 0"/><circle cx="10" cy="8" r="5"/><path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3"/></svg><circle cx="12" cy="12" r="10" />
               </div>
               <h4 className="text-lg font-bold">Socials</h4>
               <div className="flex space-x-4 text-gray-700 text-xl">
@@ -477,7 +510,7 @@ export default function HomePage() {
                   </svg>
                 </a>
 
-                <a href="https://wa.me/085156615935" target="_blank">
+                <a href="https://wa.me/+6285156615935" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z" />
                     <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
@@ -542,11 +575,12 @@ export default function HomePage() {
             
             {/* Sosial Media */}
             <div className="flex space-x-4 text-xl">
-              <a href="#"><i className="fab fa-facebook text-gray-400 hover:text-white"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=61577829394231"><i className="fab fa-facebook text-gray-400 hover:text-white"></i></a>
               <a href="https://www.tiktok.com/@smartani.id"><i className="fab fa-tiktok text-gray-400 hover:text-white"></i></a>
               <a href="https://www.instagram.com/smartani.id"><i className="fab fa-instagram text-gray-400 hover:text-white"></i></a>
               <a href="https://www.youtube.com/@InfoSmartani"><i className="fab fa-youtube text-gray-400 hover:text-white"></i></a>
-              <a href="#"><i className="fab fa-linkedin text-gray-400 hover:text-white"></i></a>
+              <a href="https://id.linkedin.com/in/smartani-id-00b291372"><i className="fab fa-linkedin text-gray-400 hover:text-white"></i></a>
+              <a href="https://wa.me/+6285156615935"><i className="fab fa-whatsapp text-gray-400 hover:text-white"></i></a>
             </div>
           </div>
         </div>
