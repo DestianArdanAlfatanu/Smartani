@@ -551,9 +551,9 @@ export default function HomePage() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-white relative overflow-hidden text-center">
+      <section id="contact" className="py-20 -mt-20 bg-white relative overflow-hidden text-center">
         <div className="w-full max-w-[1800px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 space-y-10">
-        <span className="badge badge-success text-white mb-10 px-4 py-4 rounded-2xl">Contact Us</span>
+        <span className="badge badge-success text-white px-4 py-4 rounded-2xl">Contact Us</span>
         <div className="container mx-auto px-4 max-w-6xl space-y-10">
           
           {/* Judul & Subjudul */}
