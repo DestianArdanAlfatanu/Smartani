@@ -80,7 +80,7 @@ export default function HomePage() {
         {/* Mobile & Tablet Layout */}
         <div className="flex flex-col w-full items-center text-center space-y-4 sm:space-y-5 md:space-y-6 z-10 lg:hidden max-w-md mx-auto pt-20 px-4">
 
-          <span className="badge badge-success text-white px-4 py-2 rounded-2xl mb-2">Home</span>
+          <span className="badge badge-success text-white px-4 py-4 rounded-2xl mb-2">Home</span>
 
           <img src="/model.jpeg" alt="Petani Smartani" className="w-80 sm:w-64 md:w-80 rounded-3xl shadow-2xl" />
 
@@ -112,7 +112,7 @@ export default function HomePage() {
 
         {/* Laptop Layout */}
         <div className="hidden lg:flex w-1/2 flex-col justify-center text-left space-y-6 z-10 pl-10 xl:pl-20">
-          <span className="badge badge-success text-white px-4 py-3 rounded-2xl mb-2">Home</span>
+          <span className="badge badge-success text-white px-4 py-4 rounded-2xl mb-2">Home</span>
 
           <h1 className="text-5xl xl:text-6xl font-bold text-green-800 leading-snug">
             Bertani Menjadi <br /> Sepenuh Hati
@@ -166,8 +166,8 @@ export default function HomePage() {
           </div>
 
           {/* Judul & Subjudul */}
-          <h2 className="text-4xl md:text-4xl font-bold text-green-800 mb-4">Fitur Terdepan Smartani</h2>
-          <p className="text-gray-600 text-2xl mb-16 max-w-4xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-4">Fitur Terdepan Smartani</h2>
+          <p className="text-gray-600 text-lg mb-16 max-w-4xl mx-auto">
             Inilah fitur-fitur unggulan Smartani yang membawa Greenhouse Anda ke level berikutnya.
           </p>
 
@@ -389,7 +389,7 @@ export default function HomePage() {
         <div className='block lg:hidden'> 
           {/* Badge */}
           <div className="text-center mb-6">
-            <span className="badge badge-success px-4 py-2 text-white rounded-2xl">About Us</span>
+            <span className="badge badge-success px-4 py-4 text-white rounded-2xl">About Us</span>
           </div>
 
           {/* Judul & Subjudul */}
@@ -444,7 +444,7 @@ export default function HomePage() {
           <div className="lg:w-1/2 space-y-10 text-green-700">
             <span className="badge badge-success text-white px-4 py-4 rounded-2xl">FAQ</span>
             <h2 className="text-4xl md:text-5xl font-bold text-green-500 mb-4">Frequently Asked Questions</h2>
-            <p className="text-gray-700 text-xl max-w-md">
+            <p className="text-gray-700 text-lg max-w-md">
               Kenali Smartani lebih dekat dengan temukan bagaimana teknologi ini bekerja dan apa saja yang bisa Anda dapatkan dari penggunaannya.
             </p>
             <img src="/LogoSmartani.PNG" alt="Smartani Logo" className="w-60 mt-6" />
@@ -544,7 +544,7 @@ export default function HomePage() {
           <img src="/model-4.png" alt="Kontak Smartani" className="w-full rounded-3xl max-w-lg mx-auto" />
           <div className="text-center md:text-left">
             <h2 className="text-3xl md:text-4xl font-bold text-green-800 mb-4">Hubungi Kami</h2>
-            <p className="text-gray-700 mb-6">Konsultasi gratis untuk optimalkan pertanian Anda bersama Smartani.</p>
+            <p className="text-gray-700 text-lg mb-6">Konsultasi gratis untuk optimalkan pertanian Anda bersama Smartani.</p>
             <button className="btn btn-success bg-green-500 text-white btn-lg">Konsultasi Sekarang</button>
           </div>
         </div>
