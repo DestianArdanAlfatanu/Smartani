@@ -656,7 +656,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h4 className="text-lg text-black font-bold">Phone</h4>
-              <p className="text-gray-700">0851xxxxx</p>
+              <p className="text-gray-700">085117551850</p>
             </div>
 
             {/* Socials */}
@@ -689,7 +689,7 @@ export default function HomePage() {
                   </svg>
                 </a>
 
-                <a href="https://wa.me/+6285156615935" target="_blank">
+                <a href="https://wa.me/+6285117551850" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2z" />
                     <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
@@ -761,7 +761,7 @@ export default function HomePage() {
               <a href="https://www.instagram.com/smartani.id"><i className="fab fa-instagram text-gray-400 hover:text-white"></i></a>
               <a href="https://www.youtube.com/@InfoSmartani"><i className="fab fa-youtube text-gray-400 hover:text-white"></i></a>
               <a href="https://id.linkedin.com/in/smartani-id-00b291372"><i className="fab fa-linkedin text-gray-400 hover:text-white"></i></a>
-              <a href="https://wa.me/+6285156615935"><i className="fab fa-whatsapp text-gray-400 hover:text-white"></i></a>
+              <a href="https://wa.me/+6285117551850"><i className="fab fa-whatsapp text-gray-400 hover:text-white"></i></a>
             </div>
           </div>
         </div>
@@ -819,7 +819,7 @@ export default function HomePage() {
                 <a href="https://www.instagram.com/smartani.id"><i className="fab fa-instagram text-gray-400 hover:text-white"></i></a>
                 <a href="https://www.youtube.com/@InfoSmartani"><i className="fab fa-youtube text-gray-400 hover:text-white"></i></a>
                 <a href="https://id.linkedin.com/in/smartani-id-00b291372"><i className="fab fa-linkedin text-gray-400 hover:text-white"></i></a>
-                <a href="https://wa.me/+6285156615935"><i className="fab fa-whatsapp text-gray-400 hover:text-white"></i></a>
+                <a href="https://wa.me/+6285117551850"><i className="fab fa-whatsapp text-gray-400 hover:text-white"></i></a>
               </div>
             </div>
           </div>
