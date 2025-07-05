@@ -107,7 +107,7 @@ export default function HomePage() {
             </li>
           </ul>
 
-          <button className="btn btn-success text-white btn-md sm:btn-lg mt-4 sm:mt-6 rounded-xl">Mulai</button>
+          <a href="#features"><button className="btn btn-success text-white btn-md sm:btn-lg mt-4 sm:mt-6 rounded-xl">Mulai</button></a>
         </div>
 
         {/* Laptop Layout */}
@@ -137,11 +137,11 @@ export default function HomePage() {
             </li>
           </ul>
 
-          <button className="btn btn-success text-white btn-lg mt-6 rounded-xl w-fit">Mulai</button>
+          <a href="#features"><button className="btn btn-success text-white btn-lg mt-6 rounded-xl w-fit">Mulai</button></a>
         </div>
 
         {/* Foto Model Khusus Laptop */}
-        <div className="hidden lg:flex w-1/2 justify-center lg:justify-end pr-10 xl:pr-20 relative">
+        <div className="hidden lg:flex w-1/2 justify-center lg:justify-end ml-10 pr-10 xl:pr-10 relative">
           <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-green-200 opacity-40 rounded-full blur-3xl translate-x-1/3 translate-y-1/2 z-0"></div>
           <img src="/model.jpeg" alt="Petani Smartani" className="w-[600px] rounded-3xl shadow-2xl relative z-10" />
         </div>
@@ -225,7 +225,7 @@ export default function HomePage() {
 
           <div className="absolute left-0 top-0 w-[500px] h-[300px] bg-green-100 opacity-50 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
             {/* Fitur Atas Kiri */}
-            <div className="absolute -top-10 left-[15%] w-64 text-center transform -translate-x-1/2 -translate-x-[30px]">
+            <div className="absolute -top-10 left-[15%] md:left-[7%] w-64 text-center transform -translate-x-1/2 -translate-x-[30px]">
               <div className="flex flex-col items-center space-y-2">
                 <div className="bg-green-500 p-3 rounded-xl text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mails-icon lucide-mails"><rect width="16" height="13" x="6" y="4" rx="2"/><path d="m22 7-7.1 3.78c-.57.3-1.23.3-1.8 0L6 7"/>
@@ -240,7 +240,7 @@ export default function HomePage() {
             </div>
 
             {/* Fitur Atas Kanan */}
-            <div className="absolute -top-10 right-[15%] w-64 text-center transform translate-x-1/2 translate-x-[30px]">
+            <div className="absolute -top-10 right-[15%] md:right-[7%] w-64 text-center transform translate-x-1/2 translate-x-[30px]">
               <div className="flex flex-col items-center space-y-2">
                 <div className="bg-green-500 p-3 rounded-xl text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings-icon lucide-settings"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/>
@@ -260,12 +260,12 @@ export default function HomePage() {
 
             {/* Gambar Utama */}
             <div className="relative z-10">
-              <img src="/Galaxy Tab S8 Ultra.png" alt="Dashboard Smartani" className="mx-auto max-w-lg" />
+              <img src="/Galaxy Tab S8 Ultra.png" alt="Dashboard Smartani" className="mx-auto max-w-xl md:max-w-lg" />
               <img src="/iPhone 12 Pro.png" alt="Kontrol Smartani" className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 w-32" />
             </div>
 
             {/* Fitur Bawah Kiri */}
-            <div className="absolute -bottom-4 left-[15%] w-64 text-center transform -translate-x-1/2 -translate-x-[30px]">
+            <div className="absolute -bottom-4 left-[15%] md:left-[7%] w-64 text-center transform -translate-x-1/2 -translate-x-[30px]">
               <div className="flex flex-col items-center space-y-2">
                 <div className="bg-green-500 p-3 rounded-xl text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-combined-icon lucide-chart-no-axes-combined">
@@ -285,7 +285,7 @@ export default function HomePage() {
             </div>
 
             {/* Fitur Bawah Kanan */}
-            <div className="absolute bottom-0 right-[15%] w-64 text-center transform translate-x-1/2 translate-x-[30px]">
+            <div className="absolute bottom-0 right-[15%] md:right-[7%] w-64 text-center transform translate-x-1/2 translate-x-[30px]">
               <div className="flex flex-col items-center space-y-2">
                 <div className="bg-green-500 p-3 rounded-xl text-white">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house-plug-icon lucide-house-plug"><path d="M10 12V8.964"/><path d="M14 12V8.964"/><path d="M15 12a1 1 0 0 1 1 1v2a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2a1 1 0 0 1 1-1z"/>
@@ -315,7 +315,6 @@ export default function HomePage() {
           <p className="text-sm sm:text-base md:text-lg mb-6">Dengan Smartani, Anda tak hanya mengikuti perkembangan, Anda memimpinnya. Bergabunglah hari ini.</p>
           <div className="flex flex-col sm:flex-row justify-center gap-3">
             <button className="btn bg-green-500 text-white hover:text-white hover:bg-green-700 transition duration-300">Hubungi Kami</button>
-            <button className="btn btn-outline border-white bg-white text-green-700 hover:bg-gray-300 hover:text-black transition duration-300">Pelajari Lebih Lanjut</button>
           </div>
         </div>
       </section>
@@ -379,7 +378,7 @@ export default function HomePage() {
               <div className="absolute bottom-10 left-0 w-[300px] h-[300px] bg-green-200 opacity-40 rounded-full blur-3xl translate-x-1/1 translate-y-1/3 z-0"></div>
             {/* Foto Kanan */}
             <div className="flex justify-self-end pr-10">
-              <img src="/model-2.png" alt="Smartani Team" className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl rounded-3xl shadow-2xl" />
+              <img src="/model-2.png" alt="Smartani Team" className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg rounded-3xl shadow-2xl" />
             </div>
           </div>
           
@@ -434,6 +433,77 @@ export default function HomePage() {
         </div>
       </section>
       
+      {/* Our Team Section */}
+      <section id="ourteam" className="py-24 bg-white relative overflow-hidden">
+        <div className="w-full max-w-[1800px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex flex-col gap-12">
+
+          {/* Laptop Only */}
+          <div className="hidden lg:block">
+            {/* Judul Tengah */}
+            <div className="text-center max-w-5xl mb-10 mx-auto space-y-4">
+              <span className="badge badge-success px-4 py-4 text-white rounded-2xl">Our Team</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-green-800 leading-snug">
+                Tim Dibalik Smartani
+              </h2>
+              <p className="text-gray-700 text-lg leading-relaxed">
+                Didorong oleh inovasi, ditenagai pengetahuan, dan dibuktikan oleh pengalaman. Inilah kekuatan tim Smartani.
+              </p>
+            </div>
+
+            {/* Bawah: Grid 2 Kolom */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-20">
+              
+              {/* Teks Kiri */}
+              <div className="space-y-6 justify-self-start text-left pl-0">
+                <p className="text-gray-700 text-md leading-relaxed">
+                Kami adalah perpaduan antara akademisi yang mendalami riset dan teori, serta praktisi yang memahami kebutuhan nyata di lapangan. Kolaborasi ini melahirkan solusi pertanian yang bukan hanya canggih, tetapi juga tepat guna dan kontekstual.<br /><br />
+                Kami percaya bahwa pertanian modern bukan sekadar tentang otomatisasi, tetapi tentang keberdayaan. Memberdayakan petani, komunitas, dan ekosistem pangan secara berkelanjutan.<br /><br />
+                Dan keberdayaan itu tumbuh dari pengetahuan, pengalaman, serta komitmen tulus untuk berkontribusi bagi bangsa.<br /><br />
+                Inilah kami, tim Smartani.<br /><br />
+                Bersama, kita majukan pertanian. Bersama, kita bangun negeri.
+              </p>
+              </div>
+
+              {/* Foto Kanan */}
+              <div className="flex justify-self-end pr-0">
+                <img src="/PP3.png" alt="Smartani Team" className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl rounded-3xl shadow-2xl" />
+              </div>
+            </div>
+
+            {/* Background Ornamen */}
+            <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-green-400 opacity-20 rounded-full blur-3xl translate-x-1/1 translate-y-1/3 z-0"></div>
+            <div className="absolute bottom-10 left-0 w-[300px] h-[300px] bg-green-200 opacity-10 rounded-full blur-3xl translate-x-1/1 translate-y-1/3 z-0"></div>
+          </div>
+
+          {/* Smartphone & Tablet Only */}
+          <div className="block lg:hidden">
+            {/* Badge */}
+            <div className="text-center mb-6">
+              <span className="badge badge-success px-4 py-4 text-white rounded-2xl">Our Team</span>
+            </div>
+
+            {/* Judul & Penjelasan */}
+            <div className="text-center max-w-4xl mx-auto mb-10">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-800 mb-4">Tim Dibalik Smartani</h2>
+              <p className="text-gray-600 text-lg sm:text-xl md:text-2xl">
+                Didorong oleh inovasi, ditenagai pengetahuan, dan dibuktikan oleh pengalaman.
+              </p>
+              {/* Foto */}
+            <div className="flex justify-center mt-5 mb-10">
+              <img src="/PP3.png" alt="Smartani Team" className="max-w-[280px] sm:max-w-[300px] md:max-w-[400px] rounded-3xl shadow-2xl" />
+            </div>
+              <p className="text-gray-600 text-sm text-left">
+                Kami adalah perpaduan akademisi dan praktisi, menghadirkan solusi pertanian yang canggih, tepat guna, dan kontekstual.<br />
+                Pertanian modern bukan sekadar otomatisasi, tapi tentang keberdayaan yang berkelanjutan untuk petani dan ekosistem pangan.<br />
+                Inilah komitmen kami untuk bangsa. Bersama, kita majukan pertanian. <br /> Bersama, kita bangun negeri.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
 
       {/* FAQ SECTION */}
       <section id="faqs" className="py-20 bg-white relative overflow-visible">
