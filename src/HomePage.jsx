@@ -9,7 +9,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-white-100">
      
       {/* Navbar */}
-      <div className="navbar bg-black shadow-sm sticky top-0 z-50 h-16 min-h-0">
+      <div className="navbar bg-black shadow-sm sticky top-0 z-50 h-16 min-h-0" style={{ width: '100vw', margin: 0, padding: 0 }}>
 
         <div className="w-full max-w-auto mx-auto flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20">
 
@@ -55,7 +55,7 @@ export default function HomePage() {
 
 
       {/* Home Section */}
-      <section id="home" className="min-h-screen flex flex-col lg:flex-row items-center max-w-[1800px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 relative overflow-hidden bg-white">
+      <section id="home" className="min-h-screen flex flex-col lg:flex-row items-center mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 relative overflow-hidden bg-white">
 
         {/* Background Blur */}
         <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
@@ -143,7 +143,7 @@ export default function HomePage() {
 
       {/* Features Section */}
       <section id="features" className="py-24 bg-white relative overflow-hidden">
-        <div className="w-full max-w-[1800px] mx-auto px-4 -mt-10 sm:px-6 md:px-8 lg:px-12 xl:px-20 text-center">
+        <div className="w-full mx-auto px-4 -mt-10 sm:px-6 md:px-8 lg:px-12 xl:px-20 text-center">
           
           {/* Badge Features */}
           <div className="mb-4">
@@ -156,8 +156,8 @@ export default function HomePage() {
             Inilah fitur-fitur unggulan Smartani yang membawa Greenhouse Anda ke level berikutnya.
           </p>
 
-        {/* Smartphone and Tablet Only */}
-        <div className="block lg:hidden">
+          {/* Smartphone and Tablet Only */}
+          <div className="block lg:hidden">
           {/* Gambar Utama Responsive */}
           <div className="relative flex flex-col items-center justify-center mb-12">
             <div className="absolute left-0 top-0 w-[200px] sm:w-[300px] md:w-[400px] bg-green-100 opacity-50 rounded-full blur-3xl -translate-x-1/3 -translate-y-1/3"></div>
@@ -290,7 +290,7 @@ export default function HomePage() {
             <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-green-200 opacity-40 rounded-full blur-3xl translate-x-1/3 translate-y-1/1 z-0"></div>
           </div>
         </div>
-        </div>
+      </div>
       </section>
 
       {/* Premis After Features */}
