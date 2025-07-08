@@ -77,10 +77,6 @@ export default function ContactForm() {
           <div className="flex items-center">
             <Link to="/"><img src="/Smartani Typo.png" alt="Smartani Logo" className="h-8 object-contain" /></Link>
           </div>
-
-          <div className="hidden md:flex gap-6">
-            <Link to="/"><button className="bg-green-500 text-white font-semibold hover:bg-green-700 hover:text-white px-4 py-2 rounded transition-colors">Home Page</button></Link>
-          </div>
         </div>
       </div>
       {/* Main Content */}
