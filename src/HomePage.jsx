@@ -23,6 +23,7 @@ export default function HomePage() {
             <a href="#home" className="btn btn-ghost normal-case text-white hover:bg-white hover:text-black">Home</a>
             <a href="#features" className="btn btn-ghost normal-case text-white hover:bg-white hover:text-black">Features</a>
             <a href="#about" className="btn btn-ghost normal-case text-white hover:bg-white hover:text-black">About Us</a>
+            <a href="#team" className="btn btn-ghost normal-case text-white hover:bg-white hover:text-black">Our Team</a>
             <a href="#faqs" className="btn btn-ghost normal-case text-white hover:bg-white hover:text-black">FAQs</a>
             <Link to="/form" className="btn bg-green-500 text-white font-semibold hover:bg-green-700 hover:text-white">Hubungi Kami</Link>
           </div>
@@ -45,8 +46,9 @@ export default function HomePage() {
               <a href="#home" className="text-black hover:text-green-500 w-full text-left">Home</a>
               <a href="#features" className="text-black hover:text-green-500 w-full text-left">Features</a>
               <a href="#about" className="text-black hover:text-green-500 w-full text-left">About Us</a>
+              <a href="#team" className="text-black hover:text-green-500 w-full text-left">Our Team</a>
               <a href="#faqs" className="text-black hover:text-green-500 w-full text-left">FAQs</a>
-              <Link to="/form" className="btn bg-green-500 text-white font-semibold hover:bg-green-700 w-full text-center">Hubungi Kami</Link>
+              <Link to="/form" className="btn bg-green-500 text-white font-semibold hover:text-white hover:bg-green-700 w-full text-center">Hubungi Kami</Link>
             </div>
           </div>
         )}
@@ -64,8 +66,6 @@ export default function HomePage() {
 
         {/* Mobile & Tablet Layout */}
         <div className="flex flex-col w-full items-center text-center space-y-4 sm:space-y-5 md:space-y-6 z-10 lg:hidden max-w-md mx-auto pt-20 px-4">
-
-          <span className="badge badge-success text-white px-4 py-4 rounded-2xl mb-2">Home</span>
 
           <img src="/hero.png" alt="Petani Smartani" className="w-80 sm:w-64 md:w-80 rounded-3xl shadow-2xl" />
 
@@ -97,7 +97,6 @@ export default function HomePage() {
 
         {/* Laptop Layout */}
         <div className="hidden lg:flex w-1/2 flex-col justify-center text-left space-y-6 z-10 pl-10 xl:pl-20">
-          <span className="badge badge-success text-white px-4 py-4 rounded-2xl mb-2">Home</span>
 
           <h1 className="text-5xl xl:text-6xl font-bold text-green-500 leading-snug">
             Bertani Menjadi <br /> Sepenuh Hati
@@ -126,9 +125,9 @@ export default function HomePage() {
         </div>
 
         {/* Foto Model Khusus Laptop */}
-        <div className="hidden lg:flex w-1/2 justify-center lg:justify-end ml-10 pr-10 xl:pr-10 relative">
+        <div className="hidden lg:flex w-1/2 justify-center lg:justify-end ml-10 pr-10 relative">
           <div className="absolute bottom-0 right-0 w-[300px] h-[300px] bg-green-200 opacity-40 rounded-full blur-3xl translate-x-1/3 translate-y-1/2 z-0"></div>
-          <img src="/hero.png" alt="Petani Smartani" className="w-[600px] rounded-3xl shadow-2xl relative z-10" />
+          <img src="/hero.png" alt="Petani Smartani" className="w-[600px] 2xl:w-[1000px] rounded-3xl shadow-2xl relative z-10" />
         </div>
 
         {/* Premis Tagline */}
@@ -419,7 +418,7 @@ export default function HomePage() {
       </section>
       
       {/* Our Team Section */}
-      <section id="ourteam" className="py-24 bg-white relative overflow-hidden">
+      <section id="team" className="py-24 bg-white relative overflow-hidden">
         <div className="w-full max-w-[1800px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex flex-col gap-12">
 
           {/* Laptop Only */}
@@ -430,30 +429,26 @@ export default function HomePage() {
               <h2 className="text-3xl md:text-4xl font-bold text-green-500 leading-snug">
                 Tim Dibalik Smartani
               </h2>
-              <p className="text-gray-700 text-lg leading-relaxed">
+              <p className="text-gray-700 text-lg leading-relaxed 3xl:text-xl">
                 Didorong oleh inovasi, ditenagai pengetahuan, dan dibuktikan oleh pengalaman. Inilah kekuatan tim Smartani.
               </p>
             </div>
-
-            {/* Bawah: Grid 2 Kolom */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-20">
               
-              {/* Teks Kiri */}
-              <div className="space-y-6 justify-self-start text-left pl-0">
-                <p className="text-gray-700 text-md leading-relaxed">
-                Kami adalah perpaduan antara akademisi yang mendalami riset dan teori, serta praktisi yang memahami kebutuhan nyata di lapangan. Kolaborasi ini melahirkan solusi pertanian yang bukan hanya canggih, tetapi juga tepat guna dan kontekstual.<br /><br />
-                Kami percaya bahwa pertanian modern bukan sekadar tentang otomatisasi, tetapi tentang keberdayaan. Memberdayakan petani, komunitas, dan ekosistem pangan secara berkelanjutan.<br /><br />
-                Dan keberdayaan itu tumbuh dari pengetahuan, pengalaman, serta komitmen tulus untuk berkontribusi bagi bangsa.<br /><br />
-                Inilah kami, tim Smartani.<br /><br />
-                Bersama, kita majukan pertanian. Bersama, kita bangun negeri.
+              {/* Teks Atas */}
+              <div className="space-y-6 justify-self-start -mt-5 max-w-4xl text-justify mx-auto px-2 3xl:px-0">
+                <p className="text-gray-700 text-lg leading-relaxed 3xl:text-xl">
+                Kami adalah perpaduan harmonis antara pemikir dan pelaku akademisi yang menekuni riset dan teori dengan ketekunan ilmiah, serta praktisi yang mengakar kuat pada realitas dan kebutuhan nyata di lapangan. Perpaduan ini bukanlah sekadar kolaborasi, melainkan sinergi yang melahirkan solusi pertanian yang tidak hanya modern dan canggih, tetapi juga tepat guna, kontekstual, dan relevan dengan tantangan yang dihadapi petani Indonesia.
+          <br />Kami percaya bahwa kemajuan pertanian di era digital bukan sekadar soal otomatisasi atau teknologi yang memukau. Lebih dari itu, pertanian modern harus mampu menghadirkan keberdayaan memberikan kekuatan dan kemandirian kepada petani, menguatkan komunitas, serta menjaga ekosistem pangan agar tetap berkelanjutan dan selaras dengan alam.
+          <br />Bagi kami, keberdayaan sejati tumbuh dari akar yang kuat: pengetahuan yang dalam, pengalaman yang nyata, dan komitmen yang tulus untuk memberi dampak. Karena itulah, setiap inovasi yang kami hadirkan bukan hanya berlandaskan kecanggihan teknologi, tetapi juga berjiwa sosial dan berpijak pada kebutuhan bangsa.
+          <br />Inilah kami, tim di balik Smartani. Sebuah gerakan yang digerakkan oleh visi, ditenagai oleh ilmu, dan diarahkan oleh kepedulian.
+          <br />Mari bersama-sama memajukan pertanian Indonesia. Mari kita bangun negeri dari tanah yang kita pijak, dengan hati, akal, dan teknologi yang bijak.
               </p>
               </div>
 
-              {/* Foto Kanan */}
-              <div className="flex justify-self-end pr-0">
-                <img src="/CF.png" alt="Smartani Team" className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-xl rounded-3xl shadow-2xl" />
+              {/* Foto Bawah */}
+              <div className="flex justify-self-center mt-10 pr-0">
+                <img src="/CF.png" alt="Smartani Team" className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl rounded-3xl shadow-2xl" />
               </div>
-            </div>
 
             {/* Background Ornamen */}
             <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-green-400 opacity-20 rounded-full blur-3xl translate-x-1/1 translate-y-1/3 z-0"></div>
@@ -477,7 +472,7 @@ export default function HomePage() {
             <div className="flex justify-center mt-5 mb-10">
               <img src="/CF.png" alt="Smartani Team" className="max-w-[280px] sm:max-w-[300px] md:max-w-[400px] rounded-3xl shadow-2xl" />
             </div>
-              <p className="text-gray-600 text-sm text-left">
+              <p className="text-gray-600 text-sm text-justify mx-auto px-4">
                 Kami adalah perpaduan akademisi dan praktisi, menghadirkan solusi pertanian yang canggih, tepat guna, dan kontekstual.<br />
                 Pertanian modern bukan sekadar otomatisasi, tapi tentang keberdayaan yang berkelanjutan untuk petani dan ekosistem pangan.<br />
                 Inilah komitmen kami untuk bangsa. Bersama, kita majukan pertanian. <br /> Bersama, kita bangun negeri.

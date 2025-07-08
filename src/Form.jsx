@@ -9,9 +9,10 @@ export default function ContactForm() {
     firstName: '',
     lastName: '',
     email: '',
-    company: '',
+    greenhouse: '',
+    location: '',
     subject: '',
-    message: ''
+    consult: ''
   });
 
   useEffect(() => {
@@ -74,29 +75,13 @@ export default function ContactForm() {
       >
         <div className="w-full flex justify-between items-center px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 2xl:px-32" style={{ maxWidth: 'none' }}>
           <div className="flex items-center">
-            <img src="/Smartani Typo.png" alt="Smartani Logo" className="h-8 object-contain" />
+            <Link to="/"><img src="/Smartani Typo.png" alt="Smartani Logo" className="h-8 object-contain" /></Link>
           </div>
 
           <div className="hidden md:flex gap-6">
             <Link to="/"><button className="bg-green-500 text-white font-semibold hover:bg-green-700 hover:text-white px-4 py-2 rounded transition-colors">Home Page</button></Link>
           </div>
-
-          <div className="md:hidden absolute right-5">
-            <button className="p-2 hover:text-white hover:bg-green-500 rounded transition-colors" onClick={() => setMenuOpen(!menuOpen)}>
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                <path d="M4 12h16" /><path d="M4 18h16" /><path d="M4 6h16" />
-              </svg>
-            </button>
-          </div>
         </div>
-
-        {menuOpen && (
-          <div className="md:hidden bg-white shadow-md absolute top-16 right-0 z-40 w-48 rounded-lg border border-gray-200">
-            <div className="flex flex-col items-start gap-3 py-4 px-4 text-black">
-               <Link to="/"><button className="bg-green-500 text-white font-semibold hover:bg-green-700 hover:text-white px-4 py-2 rounded transition-colors">Home Page</button></Link>
-            </div>
-          </div>
-        )}
       </div>
       {/* Main Content */}
       <div className="w-full min-h-screen relative overflow-hidden" style={{ width: '100vw' }}>
@@ -249,7 +234,7 @@ export default function ContactForm() {
                   <input
                     type="text"
                     name="greenhouse"
-                    value={formData.company}
+                    value={formData.greenhouse}
                     onChange={handleInputChange}
                     placeholder="Masukkan nama green house (opsional)"
                     className="w-full px-4 py-3 xl:px-5 xl:py-4 rounded-xl border border-green-200 focus:border-green-500 focus:ring-2 focus:ring-green-200 transition-all duration-200 bg-white/70 text-gray-900 placeholder-gray-500 text-sm xl:text-base"
@@ -263,7 +248,7 @@ export default function ContactForm() {
                   <input
                     type="text"
                     name="location"
-                    value={formData.company}
+                    value={formData.location}
                     onChange={handleInputChange}
                     placeholder="Masukkan lokasi green house (opsional)"
                     className="w-full px-4 py-3 xl:px-5 xl:py-4 rounded-xl border border-green-200 focus:border-green-500 focus:ring-2 focus:ring-green-200 transition-all duration-200 bg-white/70 text-gray-900 placeholder-gray-500 text-sm xl:text-base"
@@ -291,7 +276,7 @@ export default function ContactForm() {
                   </label>
                   <textarea
                     name="consult"
-                    value={formData.message}
+                    value={formData.consult}
                     onChange={handleInputChange}
                     rows="5"
                     placeholder="Konsultasikan kendala Anda di sini..."
