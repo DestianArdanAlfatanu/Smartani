@@ -70,11 +70,11 @@ export default function HomePage() {
           <img src="/hero.png" alt="Petani Smartani" className="w-80 sm:w-64 md:w-80 rounded-3xl shadow-2xl" />
 
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-500 leading-snug">
-            Bertani Menjadi <br className="hidden sm:block" /> Sepenuh Hati
+            Wujudkan Pertanian Cerdas Bersama Kami
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-700">
-            Bertani Lebih Tenang, Hasil Lebih Maksimal!
+            Smarter, Greener, Together!
           </p>
 
           <ul className="mt-4 sm:mt-5 md:mt-6 space-y-3 sm:space-y-4 text-left text-gray-700 font-medium text-base sm:text-lg w-4/5 sm:w-3/5">
@@ -98,12 +98,12 @@ export default function HomePage() {
         {/* Laptop Layout */}
         <div className="hidden lg:flex w-1/2 flex-col justify-center text-left space-y-6 z-10 pl-10 xl:pl-20">
 
-          <h1 className="text-5xl xl:text-6xl font-bold text-green-500 leading-snug">
-            Bertani Menjadi <br /> Sepenuh Hati
+          <h1 className="text-5xl xl:text-5.5xl font-bold text-green-500 leading-snug">
+            Wujudkan Pertanian Cerdas Bersama Kami
           </h1>
 
           <p className="text-2xl font-semibold text-gray-700">
-            Bertani Lebih Tenang, Hasil Lebih Maksimal!
+            Smarter, Greener, Together!
           </p>
 
           <ul className="mt-6 space-y-4 text-left text-gray-700 font-medium text-lg">
@@ -419,12 +419,12 @@ export default function HomePage() {
       
       {/* Our Team Section */}
       <section id="team" className="py-24 bg-white relative overflow-hidden">
-        <div className="w-full max-w-[1800px] mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex flex-col gap-12">
+        <div className="w-full mx-auto px-4 sm:px-6 md:px-8 lg:px-12 xl:px-20 flex flex-col gap-12">
 
           {/* Laptop Only */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:block justify-self-center">
             {/* Judul Tengah */}
-            <div className="text-center max-w-5xl mb-10 mx-auto space-y-4">
+            <div className="text-center max-w-5xl mx-auto space-y-4">
               <span className="badge badge-success px-4 py-4 text-white rounded-2xl">Our Team</span>
               <h2 className="text-3xl md:text-4xl font-bold text-green-500 leading-snug">
                 Tim Dibalik Smartani
@@ -435,19 +435,18 @@ export default function HomePage() {
             </div>
               
               {/* Teks Atas */}
-              <div className="space-y-6 justify-self-start -mt-5 max-w-4xl text-justify mx-auto px-2 3xl:px-0">
+              <div className="space-y-6 justify-self-start max-w-4xl text-justify mx-auto px-2 3xl:px-0">
                 <p className="text-gray-700 text-lg leading-relaxed 3xl:text-xl">
-                Kami adalah perpaduan harmonis antara pemikir dan pelaku akademisi yang menekuni riset dan teori dengan ketekunan ilmiah, serta praktisi yang mengakar kuat pada realitas dan kebutuhan nyata di lapangan. Perpaduan ini bukanlah sekadar kolaborasi, melainkan sinergi yang melahirkan solusi pertanian yang tidak hanya modern dan canggih, tetapi juga tepat guna, kontekstual, dan relevan dengan tantangan yang dihadapi petani Indonesia.
-          <br />Kami percaya bahwa kemajuan pertanian di era digital bukan sekadar soal otomatisasi atau teknologi yang memukau. Lebih dari itu, pertanian modern harus mampu menghadirkan keberdayaan memberikan kekuatan dan kemandirian kepada petani, menguatkan komunitas, serta menjaga ekosistem pangan agar tetap berkelanjutan dan selaras dengan alam.
-          <br />Bagi kami, keberdayaan sejati tumbuh dari akar yang kuat: pengetahuan yang dalam, pengalaman yang nyata, dan komitmen yang tulus untuk memberi dampak. Karena itulah, setiap inovasi yang kami hadirkan bukan hanya berlandaskan kecanggihan teknologi, tetapi juga berjiwa sosial dan berpijak pada kebutuhan bangsa.
-          <br />Inilah kami, tim di balik Smartani. Sebuah gerakan yang digerakkan oleh visi, ditenagai oleh ilmu, dan diarahkan oleh kepedulian.
-          <br />Mari bersama-sama memajukan pertanian Indonesia. Mari kita bangun negeri dari tanah yang kita pijak, dengan hati, akal, dan teknologi yang bijak.
-              </p>
+                Kami adalah perpaduan akademisi dan praktisi, menghadirkan solusi pertanian yang canggih, tepat guna, dan kontekstual.
+                Pertanian modern bukan sekadar otomatisasi, tapi tentang keberdayaan yang berkelanjutan untuk petani dan ekosistem pangan.
+                Inilah komitmen kami untuk bangsa. Bersama, kita majukan pertanian.
+                Bersama, kita bangun negeri.
+                </p>
               </div>
 
               {/* Foto Bawah */}
-              <div className="flex justify-self-center mt-10 pr-0">
-                <img src="/CF.png" alt="Smartani Team" className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl rounded-3xl shadow-2xl" />
+              <div className="flex justify-self-center mt-3 pr-0">
+                <img src="/CF.png" alt="Smartani Team" className="max-w-xs sm:max-w-sm md:max-w-md lg:max-w-3xl rounded-3xl shadow-2xl justify-self-center" />
               </div>
 
             {/* Background Ornamen */}
@@ -625,7 +624,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <h4 className="text-lg text-black font-bold">Email</h4>
-              <p className="text-gray-700">info.smartani@gmail.com</p>
+              <p className="text-gray-700">admin@smartani.cloud</p>
             </div>
 
             {/* Phone */}
@@ -647,7 +646,7 @@ export default function HomePage() {
               <h4 className="text-lg text-black font-bold">Socials</h4>
               <div className="flex space-x-4 text-gray-700 text-xl">
               
-                <a href="https://www.instagram.com/smartani.id" target="_blank">
+                <a href="https://www.instagram.com/smartani.cloud" target="_blank">
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6 text-black" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
                     <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -701,7 +700,7 @@ export default function HomePage() {
           {/* Logo & Deskripsi */}
           <div className="space-y-3">
             <img src="Smartani White.png" alt="logo" className='h-10 object-contain'/>
-            <p className="text-gray-400">Bertani menjadi sepenuh hati.</p>
+            <p className="text-gray-400">Smarter, Greener, Together!</p>
           </div>
 
           {/* Navigasi Link */}
@@ -738,7 +737,7 @@ export default function HomePage() {
             <div className="flex space-x-4 text-xl">
               <a href="https://www.facebook.com/profile.php?id=61577829394231"><i className="fab fa-facebook text-gray-400 hover:text-white"></i></a>
               <a href="https://www.tiktok.com/@smartani.id"><i className="fab fa-tiktok text-gray-400 hover:text-white"></i></a>
-              <a href="https://www.instagram.com/smartani.id"><i className="fab fa-instagram text-gray-400 hover:text-white"></i></a>
+              <a href="https://www.instagram.com/smartani.cloud"><i className="fab fa-instagram text-gray-400 hover:text-white"></i></a>
               <a href="https://www.youtube.com/@InfoSmartani"><i className="fab fa-youtube text-gray-400 hover:text-white"></i></a>
               <a href="https://id.linkedin.com/in/smartani-id-00b291372"><i className="fab fa-linkedin text-gray-400 hover:text-white"></i></a>
               <a href="https://wa.me/+6285117551850"><i className="fab fa-whatsapp text-gray-400 hover:text-white"></i></a>
@@ -753,7 +752,7 @@ export default function HomePage() {
             {/* Logo & Deskripsi */}
             <div className="space-y-3 w-full sm:w-1/2">
               <img src="Smartani White.png" alt="logo" className='h-10 object-contain'/>
-              <p className="text-gray-400">Bertani menjadi sepenuh hati.</p>
+              <p className="text-gray-400">Smarter, Greener, Together!</p>
 
               {/* Navigasi Link */}
               <div className="flex flex-wrap justify-between mt-4">
@@ -772,19 +771,6 @@ export default function HomePage() {
                 <Link to="/form" className="btn btn-success text-white hover:text-white hover:bg-green-500">Hubungi Kami</Link>
               </div>
             </div>
-
-            {/* Newsletter */}
-            <div className="w-full sm:w-1/2 space-y-3 text-right">
-              <h4 className="font-semibold">Newsletter</h4>
-              <div className="flex items-center space-x-2 justify-end">
-                <input
-                  type="email"
-                  placeholder="Enter your work email"
-                  className="input input-bordered text-white input-sm w-48 md:w-64"
-                />
-                <button className="btn btn-success bg-green-500 btn-sm font-semibold text-white">Subscribe</button>
-              </div>
-            </div>
           </div>
 
           {/* Divider */}
@@ -796,7 +782,7 @@ export default function HomePage() {
               <div className="flex space-x-4 text-xl">
                 <a href="https://www.facebook.com/profile.php?id=61577829394231"><i className="fab fa-facebook text-gray-400 hover:text-white"></i></a>
                 <a href="https://www.tiktok.com/@smartani.id"><i className="fab fa-tiktok text-gray-400 hover:text-white"></i></a>
-                <a href="https://www.instagram.com/smartani.id"><i className="fab fa-instagram text-gray-400 hover:text-white"></i></a>
+                <a href="https://www.instagram.com/smartani.cloud"><i className="fab fa-instagram text-gray-400 hover:text-white"></i></a>
                 <a href="https://www.youtube.com/@InfoSmartani"><i className="fab fa-youtube text-gray-400 hover:text-white"></i></a>
                 <a href="https://id.linkedin.com/in/smartani-id-00b291372"><i className="fab fa-linkedin text-gray-400 hover:text-white"></i></a>
                 <a href="https://wa.me/+6285117551850"><i className="fab fa-whatsapp text-gray-400 hover:text-white"></i></a>
