@@ -343,7 +343,7 @@ export default function ContactForm() {
                 <a href="https://www.tiktok.com/@smartani.id" className="hover:text-white text-gray-400 transition-colors">
                   <i className="fab fa-tiktok"></i>
                 </a>
-                <a href="https://www.instagram.com/smartani.id" className="hover:text-white text-gray-400 transition-colors">
+                <a href="https://www.instagram.com/smartani.cloud" className="hover:text-white text-gray-400 transition-colors">
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a href="https://www.youtube.com/@InfoSmartani" className="hover:text-white text-gray-400 transition-colors">
